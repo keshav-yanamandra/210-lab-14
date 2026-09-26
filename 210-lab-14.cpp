@@ -14,6 +14,8 @@ class Color {
         int blue;
 
     public:
+        
+        //setters
         void setRed(int r) {
             red = r;
         }
@@ -24,6 +26,19 @@ class Color {
 
         void setBlue(int b) {
             blue = b;
+        }
+
+        //getters
+        int getRed() {
+            return red;
+        }
+
+        int getGreen() {
+            return green;
+        }
+
+        int getBlue() {
+            return blue;
         }
 };
 
