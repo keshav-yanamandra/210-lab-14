@@ -61,12 +61,21 @@ int main() {
     color1.setGreen(0);
     color1.setBlue(68);
 
-    cout << "Red value: " << color1.getRed() << endl;
-    cout << "Green value: " << color1.getGreen() << endl;
-    cout << "Blue value: " << color1.getBlue() << endl << endl;
+    Color color2;
+    color2.setRed(255);
+    color2.setGreen(100);
+    color2.setBlue(235);
+
+    Color color3;
+    color3.setRed(34);
+    color3.setGreen(139);
+    color3.setBlue(34);
 
     color1.print();
-
+    cout << endl;
+    color2.print();
+    cout << endl;
+    color3.print();
 
     return 0;
 }
