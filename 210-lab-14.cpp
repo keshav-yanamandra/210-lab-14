@@ -55,5 +55,18 @@ class Color {
 
 int main() {
 
+    Color color1;
+
+    color1.setRed(165);
+    color1.setGreen(0);
+    color1.setBlue(68);
+
+    cout << "Red value: " << color1.getRed() << endl;
+    cout << "Green value: " << color1.getGreen() << endl;
+    cout << "Blue value: " << color1.getBlue() << endl << endl;
+
+    color1.print();
+
+
     return 0;
 }
