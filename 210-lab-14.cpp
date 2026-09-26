@@ -77,5 +77,18 @@ int main() {
     cout << endl;
     color3.print();
 
+
+    //using getters
+    cout << endl;
+
+    cout << "Using getters and printing" << endl;
+    cout << "Color1 Red: " << color1.getRed() << endl;
+    cout << "Color2 Red: " << color2.getRed() << endl;
+    cout << "Color3 Red: " << color3.getRed() << endl;
+
+    cout << endl;
+
+
+
     return 0;
 }
