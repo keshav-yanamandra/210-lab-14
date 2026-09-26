@@ -7,6 +7,9 @@
 
 using namespace std;
 
+const int W15 = 15;
+
+
 class Color {
     private:
         int red;
@@ -39,6 +42,13 @@ class Color {
 
         int getBlue() {
             return blue;
+        }
+
+        // other method
+        void print() {
+            cout << setw(W15) << "Red: " << red << endl;
+            cout << setw(W15) << "Green: " << green << endl;
+            cout << setw(W15) << "Blue: " << blue << endl;
         }
 };
 
